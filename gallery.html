@@ -3,101 +3,122 @@
 <head>
 	<title>gallery</title>
 	<style>
-	    h1{
-	    	padding: 10px;
-	    	background-color: green;
-	    	color: white;
-	    	text-align: center;
-	    } 
-	    h3{
-	    	padding: 5px;
-	    	background-color: blue;
-	    	color: white;
-	    	text-align: left;
-	    	width: auto;
-	    } 
-	    h4{
-	    	padding: 5px;
-	    	background-color: blue;
-	    	color: white;
-	    	text-align: left;
-	    	width:auto;
-	    } 
-	    h2{
-	    	padding: 7px;
-	    	background-color: green;
-	    	color: white;
-	    	text-align: left;
-	    	width: auto;
-	    }
-	    a{
-		   display: inline;
-	    	padding: 2px;
-	        background-color: mediumvioletred;	
-	    	color: white;
+		body{
+			background-color: skyblue;
 		}
-	    footer{
-	    	text-align: center;
-		}
-		a{
-		display: inline;
-	    	padding: 2px;
-	        background-color: green;	
-	    	color: white;
-		}
-	    nav{
-			height: 10px;
-			width: 40px;
-			background-color: white;
-			font-size: 40px;
-		}
+		
+	
+	 a{
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+		margin-top: 50px;
+	 }
+	
+	 .welcome{
+		height: 50px;
+		width: auto;
+		color: white;
+		background-color: green;
+		font-size: 30px;
+		font-family: sans-serif;
+		font-weight: bold;
+		text-align: center;
+		display: flex;
+		flex-flow: column;
+	 }
 
-	</style>
+	 .para{
+		height: px;
+	    background-color: orange;
+		color: black;
+		font-size: 20px;
+		margin-top: 50px;
+		margin-left: 20px;
+		font-family: Arial, Helvetica, sans-serif;
+	    padding: 5px;
+		border: 2px solid black;
+	 }
+	 button{
+		background-color: rgb(87, 77, 235);
+		color: white;
+		margin-top: 10px;
+		margin-left: 30px;
+	 }
+	.contant{
+		background-color: green;
+		color: whitesmoke;
+		text-align: center;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.at{
+		height: 20px;
+		width: 60px;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-weight: bold;
+		color: aliceblue;
+		background-color: red;
+		padding: 2px;
+	}
+	</style> 
 </head>
 <body>
-<h1> Welcome to my working portfolio</h1>
-<div id="nav">
-	<a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Work gallery</a>
-    <a href="contact.html">contact me</a>
-    <a href="japan.html">Japan</a>
+<div class="welcome"> Welcome to my work portfolio</h1></div>
+<div class="options">
+	<button><a href="index.html">Home</a></button>
+    <button><a href="services.html">Services</a></button>
+    <button><a href="gallery.html">Work gallery</a></button>
+    <button><a href="contact.html">contact me</a></button>
+    <button><a href="japan.html">Japan</a></button>
 </div>
-<h2>My Gallery</h2>
-<a href="img/sumit.jpeg"></a>
-<img src="img/sumit.jpeg" height="300" width="250">
+<p class="para"> "Welcome to my creative portfolio, where the realms of voice, visuals, 
+	and storytelling intertwine to captivate and inspire.
+	 With a passion for creativity and a dedication to excellence, 
+	 I offer a diverse range of skills spanning voiceover, graphic design, 
+	 and video editing. Through the power of voice, I bring scripts to life with depth, emotion, and versatility,
+	  ensuring that each project resonates with its intended audience. 
+	  My graphic design work reflects a blend of aesthetics and functionality,
+	   where every design tells a unique story tailored to elevate brands and capture attention.
+	    In the realm of video editing, 
+	   I meticulously craft narratives, seamlessly weaving together footage to create compelling visual experiences
+	    that leave a lasting impact.
+	    Whether it's through the spoken word, striking visuals,
+	 or masterful editing, I am committed to bringing your creative vision to life with precision,
+	  creativity, and a touch of magic."
+	</p>
 
 
-<h4><strong>Domain registration cover letter</strong></h4>
-<a href="img/domain-registration-cover-letter.jpeg"download rel="noopener noreferrer" target="_blank"></a>
-<img src="img/domain-registration-cover-letter.jpeg" height="300" width="250">
+<p class="contant"> Photo Edit jpg</p>
+<img src="img/photo edit.jpeg" height="200px" width="320px">
+<img src="img/Ranjana.jpg" height="200px" width="320px">
+<img src="img/Pradip.jpg" height="200px" width="320px">
 
 
-<h4><strong> Photo Edit jpg</strong></h4>
-<img src="img/photo edit.jpeg" height="300px" width="450">
-</a>
+<p class="contant">Vector tracing</p>
+<img src="img/bear poster.jpg" height="330px" width="220">
+<img src="img/gig.jpg" height="330px" width="360px">
 
-<h4><strong>Vector tracing</strong></h4>
-<img src="img/bear poster.jpg" height="450px" width="300">
- </a>
 
- <h4><strong> Logo design</strong></h4>
+ <p class="contant"> Logo design</p>
 <img src="img/channels logo.png" height="200" width="200">
 <img src="img/nihongo manabi.png" height="200" width="200">
 
- </a>
-
-<h3>Sample Audio/Voiceover</h3>
+<p class="contant">Sample Audio/Voiceover</p>
+<p class="at">English</p>
 <audio controls>
 	<source src="audio/ab.mp3" type="audio/mp3">
 </audio>
+<p class="at">Ai</p>
 <audio controls>
     <source src="audio/bc.mp3" type="audio/mp3">
 </audio>
+<p class="at">Nepali</p>
 <audio controls>
     <source src="audio/HABD017.mp3" type="audio/mp3">
 </audio>
-<h3>Sample edited video</h3>
+<p class="contant">Sample edited video</p>
 <video height="200" width="300" controls>
 	<source src="video/bc.mp4" type="video/mp4">
 </video>
