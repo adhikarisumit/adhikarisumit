@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background:url(Images/Background/background1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main{
+    height: 600px;
+    width: 1200px;
+    background-color: rgb(37, 219, 134);
+}
+header{
+    position: sticky;
+    top: 5px; 
+}
+nav{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.titles{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(46, 198, 46);
+    text-align: center;
+}
+.half{
+    height: 300px;
+    width: 600px;
+    background-color: rgb(42, 123, 210);
+}
+.halfa{
+   height: 300px;
+   width: 600px;
+   background-color: red;
+}
+img{
+    margin-left: 15px;
+}
+#reach{
+    text-align: center;
+    color: rgb(6, 175, 6);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+}
+.first{
+ float: left;
+}
+.second{
+    float: left;
+}
+.third{
+    float: left;
+}
+.fourth{
+    float: left;
+}
+.fivth{
+    float: left;
+}
+.sixth{
+    float: left;
+}
+.Sfirst{
+    float: left;
+}
+form{
+    margin-left:25px;
+}
+.maindiv{
+    height: 1000px;
+    width: 1480px;
+}
+.topdiv{
+    height: 250px;
+    width: 1480px;
+}
+.myimage{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+}
+.topdiv2{
+    height: 250px;
+    width: 1230px;
+    font-size: 25px;
+    float: left;
+    color:white;
+
+}
+.middiv{
+    height: 250px;
+    width: 1480px;
+    background-color: blue;
+
+}
+button{
+    background-color: rgb(16, 176, 16);
+    height: 50px;
+    width: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5%;
+    margin-left: 200px;
+    opacity: 1;
+}
+button:hover{
+    opacity: 1;
+    transition: 0.5s;
+    background-color: rgb(68, 228, 68);
+}
+
+.skill{
+    height: 150px;
+    width: 25%;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: rgb(241, 246, 241);
+}
+.servicetable{
+    margin: 12px,5px,0px,5px;
+    background-color: rgb(175, 179, 183);
+    color:white;
+}
+
